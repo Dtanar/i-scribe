@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Ubuntu", system-ui;
+}
+
+h1,h2,h3,.bold{
+    font-family: "Rasa", serif;
+}
+
+.specialBtn{
+    background: whitesmoke;
+    box-shadow: 0px 14px 55px rgba(96, 255, 101, 0.35);
+    transition-duration: 200ms;
+}
+
+.specialBtn:hover{
+    opacity: 0.8;
+}
