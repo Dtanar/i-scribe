@@ -27,6 +27,7 @@ function App() {
 
           <Header />
 
+          {/* setting the body of the app based on a condition. that is if there is an audio file available or not */}
           {isAudioAvailable ? (
             <FileDisplay handleAudioReset={handleAudioReset} file={file} audioStream={setAudioStream}/>
           ):  (
